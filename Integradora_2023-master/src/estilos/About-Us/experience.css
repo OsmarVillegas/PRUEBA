@@ -1,0 +1,131 @@
+.Experience-contenido {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #222222;
+    color: white;
+    flex-direction: column;
+}
+
+.Experience-cuadro {
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 1%;
+}
+
+.Experience-AirlineExp {
+    margin: 0.5em 0;
+}
+
+#Experience-experiencia-1, #Experience-experiencia-2, #Experience-experiencia-3 {
+    position: relative;
+    height: 29em;
+    width: 19em;
+    margin: 0.5em;
+}
+
+#Experience-experiencia-1:hover, #Experience-experiencia-2:hover, #Experience-experiencia-3:hover {
+    filter: contrast(150%);
+    filter: grayscale(110%);
+    transition: 1s;
+    position: relative;
+}
+
+
+.Experience-titulo {
+    position: absolute;
+    font-size: 1.5em;
+    inset: 88% 0 0 0;
+    transition: inset .3s .3s ease-out;
+}
+
+.Experience-titulo::before {
+    content: "";
+    position: absolute;
+    background-color: white;
+    right: 10%;
+    bottom: 2%;
+    height: 0.5%;
+    width: 80%;
+    margin-bottom: 0.5em;
+    transition: inset .3s ease-out;
+}
+
+#Experience-experiencia-1:hover .Experience-titulo {
+    position: absolute;
+    inset: 45px;
+    transition: inset .3s ease-out;
+}
+
+#Experience-experiencia-1:hover .Experience-titulo::before {
+    position: absolute;
+    inset: 30px 15px;
+    transition: inset .3s ease-out;
+}
+
+#Experience-experiencia-2:hover .Experience-titulo {
+    position: absolute;
+    inset: 45px;
+}
+
+#Experience-experiencia-2:hover .Experience-titulo::before {
+    position: absolute;
+    inset: 30px 15px;
+}
+
+#Experience-experiencia-3:hover .Experience-titulo {
+    position: absolute;
+    inset: 45px;
+}
+
+#Experience-experiencia-3:hover .Experience-titulo::before {
+    position: absolute;
+    inset: 30px 15px;
+}
+
+.Experience-descripcion {
+    position: absolute;
+    inset: 100px 10px 0 10px;
+    font-weight: 100;
+    font-size: 1em;
+    opacity: 0;
+    transition: opacity .3s ease-out;
+}
+
+.Experience-descripcion:hover {
+    position: absolute;
+    inset: 100px 10px 0 10px;
+    font-weight: 100;
+    font-size: 0.9em;
+    opacity: 1;
+    transition: opacity .5s .6s ease-in;
+}
+
+
+#Experience-experiencia-1 {
+    background-image: url("../../imagenes/experiencia/image1.jpg");
+    background-position: center;
+    background-size: 100% 100%;
+}
+
+#Experience-experiencia-2 {
+    background-image: url("../../imagenes/experiencia/image2.jpg");
+    background-position: center;
+    background-size: 100% 100%;
+}
+
+#Experience-experiencia-3 {
+    background-image: url("../../imagenes/experiencia/image3.jpg");
+    background-position: center;
+    background-size: 100% 100%;
+}
+
+.Experience-linea {
+    border: solid white 1px;
+    color: white;
+}

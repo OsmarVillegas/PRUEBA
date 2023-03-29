@@ -1,0 +1,27 @@
+[
+    {
+        "titulo":"Forum BJXAEROSPACE",
+        "fecha": "Oct 31, 2020",
+        "desc": "We invite you to participate in the \"2nd Business Forum of the Bajìo A.C Aerospace Cluster\", follow the conferences, panels, and meetups of the event on our platform and social networks. Click on the link: bjxaerospace.org and Register!",
+        "img": "16"
+    },
+    {
+        "titulo":"14th Anniversary OPTIMEN",
+        "fecha": "Oct 19, 2020",
+        "desc": "14 years streamlining global mobility through a passionate software developers team. Congratulations TEAM Optimen!",
+        "img": "15"
+    },
+    {
+        "titulo":"4OPS by Optimen",
+        "fecha": "Oct 15, 2020",
+        "desc": "We are proud of our new Technological Solution to achieve our Purpose: Streamline the World Mobility!",
+        "img": "14"
+    }
+    ,
+    {
+        "titulo":"Red Hat Business Partner",
+        "fecha": "Aug 19, 2020",
+        "desc": "We are pleased to announce that Optimen has been integrated as Business Partner Solution Provider by Red Hat. This alliance enhance our commitment to bring efficient and optimal solutions to our clients.",
+        "img": "13"
+    }
+]

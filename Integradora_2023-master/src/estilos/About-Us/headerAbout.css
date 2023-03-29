@@ -1,0 +1,37 @@
+.HeaderAbout-Contenedor {
+    position: relative;
+    height: 85vh;
+    background-image: url(../../imagenes/cabeza/about.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.HeaderAbout-item {
+    height: 83vh;
+    width: 100vw;
+}
+
+.HeaderAbout-caption {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    inset: 18% auto auto 10%;
+}
+
+.HeaderAbout-Titulo {
+    font-size: 6.5em;
+    margin-right: 50%;
+    text-align: start;
+}
+
+.HeaderAbout-texto {
+    text-align: start;
+    max-width: 29vw;
+    margin-top: 1em;
+    font-size: 1.2em;
+}
+
+.HeaderAbout-caption li {
+    font-size: 1.2em;
+    margin-top: 0.5em;
+}

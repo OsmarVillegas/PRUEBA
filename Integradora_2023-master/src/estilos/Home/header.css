@@ -1,0 +1,51 @@
+.header-contenido{
+    position: relative;
+}
+
+.header-img{
+    height: 78vh;
+}
+
+.header-titulo-m{
+    position: absolute;
+    font-weight: 450;
+    font-size: 6em;
+    color: white;
+    top: 25px;
+    left: 2.5%;
+}
+
+.header-parrafo{
+    position: absolute;
+    color: white;
+    top: 125px;
+    left: 3%;
+}
+
+@media (max-width: 800px){
+    .header-img{
+        height: 55vh;
+        object-fit: cover;
+        object-position: left;
+    }
+
+    .header-titulo{
+        position: absolute;
+        font-weight: 500;
+        font-size: 4.5em;
+        color: white;
+        top: 0;
+        left: 2.5%;
+    }
+    
+    .header-parrafo{
+        position: absolute;
+        color: white;
+        font-size: 1em;
+        top: 100px;
+        left: 5%;
+    }
+
+}
+
+

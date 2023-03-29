@@ -1,0 +1,47 @@
+.services-contenido {
+    padding: 2.5em;
+    position: relative;
+    background-color: #3D64E3;
+    text-align: center;  
+}
+
+.services-titulo {
+    margin-bottom: 0.8em;
+    font-size: 4em;
+    font-weight: bold;
+    color: white;
+}
+
+.services-servicio {
+    background-color: white;
+    border-radius: 5%;
+    min-height: 12.2em;
+    min-width: 12.2em;
+    margin: 1.5em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    box-shadow: 19px 20px 23px -9px rgba(0,0,0,0.92);
+    -webkit-box-shadow: 19px 20px 23px -9px rgba(0,0,0,0.92);
+    -moz-box-shadow: 19px 20px 23px -9px rgba(0,0,0,0.92);
+}
+
+.services-servicio-nombre {
+
+}
+
+.services-servicio-imagen {
+    margin-bottom: 0.5em;
+    width: 50%;
+    height: auto;
+}
+
+.contenido {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-items: center;
+}

@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Slabo+27px&display=swap');
+
+
+.AWorldGlobal-titulo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 2em;
+    color: #00239C;
+    text-align: center;
+}
+
+.AWorldGlobal-contenedor-capabilities {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2em 0;
+    margin-bottom: 0;
+    margin-top: 1em;
+    font-weight: bolder;
+    background-color: white;
+}
+
+.AWorldGlobal-t {
+    font-weight: bold;
+    position: relative;
+    bottom: 10px;
+}
+
+#capabilitie {
+    height: 90vh;
+    width: 100%;
+    position: relative;
+    background: url("../../imagenes/cabeza/fondo.jpg");
+    background-size: cover;
+    max-width: 45%;
+}
+
+/* #capabilitie::after {
+    content: '';
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: white;
+} */
+
+#capabilitie::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url("../../imagenes//capabilities/Palabras_min.png");
+    background-size: 100% 100%;
+    background-position: center;
+    mix-blend-mode: screen;
+}
+
+/* 
+@media (max-width: 800px) {
+    .capabilitie {
+        height: 70vh;
+        width: auto;
+    }
+} */
+
+@media (max-width: 700px) {
+    #capabilitie {
+        height: 60vh;
+        width: 100%;
+        max-width: 60%;
+    }
+
+}
+
+@media (max-width: 500px) {
+    #capabilitie {
+        height: 60vh;
+        width: 100%;
+        max-width: 100%;
+    }
+}

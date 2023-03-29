@@ -1,0 +1,77 @@
+.OurStory-contenido {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 1em;
+}
+
+.OurStory-cuadro-title {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    flex-direction: column;
+    color: #1A40C6;
+    font-weight: bold;
+    margin: 1em 1em;
+}
+
+.OurStory-cuadro-title-text {
+    font-size: 2.1em;
+}
+
+.OurStory-cuadro-title hr {
+    width: 60vw;
+    border: 1px solid rgb(0, 0, 0);
+}
+
+.OurStory-img{
+    height: 25vh;
+    width: 25vw;
+    margin: 0 2em;
+}
+
+.OurStory-cuadro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.OurStory-cuadro-izquierda {
+    margin-top: 1.5em;
+    display: flex;
+}
+
+.OurStory-cuadro-derecha {
+    margin-top: 3em;
+    margin-bottom: 1.5em;
+    display: flex;
+}
+
+.OurStory-cuadro-anios {
+    font-size: 1.5em;
+    color: #1A40C6;
+    font-weight: bold;
+}
+
+.OurStory-cuadro-subtitulo {
+    font-size: 1.5em;
+
+}
+
+.OurStory-cuadro-descripcion {
+    text-align: start;
+}
+
+.OurStory-cuadro-suceso {
+    text-align: start;
+    font-weight: bold;
+    font-size: 1.5em;
+    cursor: pointer;
+}
+
+.OurStory-cuadro-suceso li {
+    margin-top: 0.2em;
+}

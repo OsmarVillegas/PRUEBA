@@ -1,0 +1,32 @@
+
+###
+
+GET  http://localhost:4000/api/noticias
+###
+
+POST http://localhost:4000/api/noticias
+Content-Type: application/json
+
+    {
+        "nameNoticias": "Noticia de ejemplo",
+        "contenidoEsp": "Contenido en español de la noticia",
+        "contenidoEng": "Contenido en inglés de la noticia",
+        "fechCreacion": "2023-03-27T15:30:00Z",
+        "visiblidad": true,
+        "img": ["imagen1.jpg", "imagen2.jpg"],
+        "creador": "Usuario de ejemplo"
+    }
+
+###
+GET  http://localhost:4000/api/noticias/64200f88d357bb85b4a2e572
+###
+
+DELETE http://localhost:4000/api/noticias/64200f88d357bb85b4a2e572
+
+###
+PUT  http://localhost:4000/api/noticias/6420120b30f7a85e51cf6dae
+Content-Type: application/json
+
+{
+    "nameNoticias":"Osvaldo"
+}

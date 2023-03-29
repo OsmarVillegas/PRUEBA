@@ -1,0 +1,41 @@
+.awardsAndCertifications-contenido {
+    height: auto;
+    background-color: #3D64E3;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.awardsAndCertifications-titulo {
+    position: relative;
+    color: white;
+    margin: 1em;
+}
+
+.awardsAndCertifications-award {
+    margin: 1.8em;
+}
+
+.awardsAndCertifications-awards {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 2.5em;
+}
+
+.awardsAndCertifications-img {
+    height: 6em;
+    width: auto;
+    filter: grayscale(100%);
+    transition: 0.5s;
+}
+
+.awardsAndCertifications-img:hover {
+    transform: scale(1.1);
+    filter: grayscale(0%);
+}

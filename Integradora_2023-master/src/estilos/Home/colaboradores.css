@@ -1,0 +1,52 @@
+.colaboradores-contenido {
+    background-color: #ffffff;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2% 10%;
+}
+
+.colaboradores-grupo {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.colaboradores-colab {
+    filter: grayscale(100%);
+    margin: 2em;
+    transition: 0.5s;
+}
+
+.colaboradores-colab:hover {
+    filter: grayscale(0%);
+    margin: 2em;
+    transform: scale(1.1);
+}
+
+.colaboradores-img {
+    width: 8em;
+    height: auto;
+}
+
+.colaboradores-titulo {
+    color: #00239C;
+    font-weight: bold;
+}
+
+.titulo {
+
+}
+
+@media (max-width: 1500px){
+    .colaboradores-contenido {
+        display:block;
+        flex-wrap: wrap;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+}

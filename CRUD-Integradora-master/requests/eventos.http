@@ -1,0 +1,38 @@
+
+###
+
+GET  http://localhost:4000/api/eventos
+###
+
+POST http://localhost:4000/api/eventos
+Content-Type: application/json
+
+{
+   "nameEvento":"Mi evento",
+   "contenidoEsp":"Descripción del evento en español",
+   "contenidoEng":"Event description in English",
+   "fechaCreacion":"2022-03-26T12:00:00.000Z",
+   "fechaInicio":"2022-04-01T18:00:00.000Z",
+   "fechaFin":"2022-04-01T22:00:00.000Z",
+   "visiblidad":true,
+   "img":[
+      "imagen1.jpg",
+      "imagen2.jpg"
+   ],
+   "creador":"Nombre del creador"
+}
+
+###
+GET  http://localhost:4000/api/eventos/6420118030f7a85e51cf6d9f
+
+###
+
+DELETE http://localhost:4000/api/eventos/6420118030f7a85e51cf6d9f
+
+###
+PUT  http://localhost:4000/api/eventos/6420118030f7a85e51cf6d9f
+Content-Type: application/json
+
+{
+    "nameEvento":"Osvaldo"
+}
